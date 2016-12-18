@@ -1,0 +1,201 @@
+/* CSS Document */
+
+@import "https://fonts.googleapis.com/css?family=Quicksand";
+.fullscreen-bg__video {
+  position: fixed;
+  z-index: -1;
+}
+
+body, html {
+  height: 100%;
+}
+
+a:link, a:hover, a:visited, a:active {
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.menu {
+  font-size: 2em;
+  font-family: "Quicksand", sans-serif;
+}
+
+.nav > li > a:link {
+  background: black;
+  -webkit-transition: all .6s ease;
+  transition: all .6s ease;
+}
+
+.nav > li > a:hover {
+  background: #6bcfe7 !important;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.nav > li > a:active {
+  background: #6bcfe7 !important;
+}
+
+.navbar-will {
+  background: black;
+  border: none;
+  color: white;
+  display: block;
+  font-size: 1em;
+}
+
+.h1-will {
+  padding: .2em 0em 0em 0;
+  font-size: 2.5em;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 800;
+}
+
+.parallax {
+  /* The image used */
+  /* Full height */
+  height: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.reel {
+  position: absolute;
+  padding: 0em .2em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  background: rgba(0, 0, 0, 0.1);
+  font-size: 2.5em;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  border: solid;
+  border-color: rgba(255, 255, 255, 0.7);
+  -webkit-transition: all .3s;
+}
+
+a.reel:hover {
+  color: white;
+  border: solid;
+  padding: .1em .3em;
+  border-width: .1em;
+  border-color: #6bcfe7;
+  background: #6bcfe7;
+  text-decoration: none;
+  -webkit-transition: all .3s ease-out;
+}
+
+.modal-on {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background: rgba(0, 0, 0, 0.8);
+  font-size: 2.5em;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  -webkit-transition: all .3s;
+  z-index: -100;
+}
+
+.modal-off {
+  position: fixed;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background: black;
+  font-size: 2.5em;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  -webkit-transition: all .3s;
+  z-index: -100;
+}
+
+.work-h1 {
+  text-align: center;
+  font-size: 2.5em;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 800;
+}
+
+.work {
+  background: white;
+  padding: 0;
+}
+
+.work-item:before {
+  content: "";
+  display: block;
+  padding-top: 100%;
+  /* initial ratio of 1:1*/
+}
+
+.work-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-position: center;
+  background-size: cover;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.work-content:hover {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  cursor: url(http://williamcolby.com/play-button-bw.png), auto;
+}
+
+.work-content p {
+  position: absolute;
+  top: 1.5em;
+  left: .5em;
+  width: 100%;
+  font-size: 5em;
+  font-family: Sans-Serif;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  margin: 0;
+  box-sizing: border-box;
+  line-height: .7em;
+}
+
+.subTitle {
+  font-size: .5em;
+}
+
+.genre {
+  font-size: .3em;
+}
+
+.contact {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  font-size: 1.5em;
+  padding: 10em 0em 1em 0em;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 800;
+  background: #65CFE7;
+  color: white;
+}
