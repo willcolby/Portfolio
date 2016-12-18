@@ -14,6 +14,7 @@ a:link, a:hover, a:visited, a:active {
   font-family: "Quicksand", sans-serif;
   font-weight: bold;
   color: white;
+	//background: black !important;	
   text-decoration: none;
 	-webkit-transition: all .6s ease;
   transition: all .6s ease;
@@ -25,7 +26,7 @@ a:link, a:hover, a:visited, a:active {
 }
 
 .nav > li > a:link {
-  background: black;
+  background: black !important;
   -webkit-transition: all .6s ease;
   transition: all .6s ease;
 }
